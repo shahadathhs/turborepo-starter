@@ -5,8 +5,12 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "start": "turbo start",
+    "typecheck": "turbo typecheck",
     "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
     "format": "turbo format",
+    "format:check": "turbo format:check",
     "ui": "pnpm --filter=ui shadcn"
   },
   "devDependencies": {
