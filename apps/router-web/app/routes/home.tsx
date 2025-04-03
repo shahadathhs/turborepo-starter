@@ -1,11 +1,11 @@
-import type { Route } from "./+types/home";
-import { Button } from "@workspace/ui/components/button";
+import type { Route } from './+types/home'
+import { Button } from '@workspace/ui/components/button'
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+    { title: 'New React Router App' },
+    { name: 'description', content: 'Welcome to React Router!' },
+  ]
 }
 
 export default function Home() {
@@ -13,5 +13,5 @@ export default function Home() {
     <div>
       <Button>Button</Button>
     </div>
-  );
+  )
 }

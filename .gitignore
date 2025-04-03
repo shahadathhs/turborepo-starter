@@ -23,6 +23,7 @@ coverage
 
 # Build Outputs
 .next/
+.react-router
 out/
 build
 dist
@@ -34,3 +35,8 @@ npm-debug.log*
 # Misc
 .DS_Store
 *.pem
+
+# IDEs and editors
+.idea
+.vscode
+*.suo
