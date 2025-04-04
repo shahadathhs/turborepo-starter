@@ -3,14 +3,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
     "dev": "react-router dev",
+    "build": "react-router build",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write . --ignore-path .prettierignore",
-    "format:check": "prettier --check . --ignore-path .prettierignore"
+    "format:check": "prettier --check . --ignore-path .prettierignore",
+    "clean": "rm -rf build node_modules",
+    "clean:turbo": "rm -rf .turbo node_modules build"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",

@@ -39,6 +39,9 @@
     },
     "clean": {
       "dependsOn": ["^clean"]
+    },
+    "clean:turbo": {
+      "dependsOn": ["^clean:turbo"]
     }
   }
 }

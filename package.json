@@ -4,14 +4,16 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "turbo build",
     "dev": "turbo dev",
+    "build": "turbo build",
     "start": "turbo start",
     "typecheck": "turbo typecheck",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
     "format": "turbo format",
     "format:check": "turbo format:check",
+    "clean": "turbo clean && rm -rf node_modules",
+    "clean:turbo": "turbo clean:turbo && rm -rf .turbo node_modules",
     "ui": "pnpm --filter=ui shadcn"
   },
   "devDependencies": {

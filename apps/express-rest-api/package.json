@@ -3,15 +3,16 @@
   "version": "0.0.1",
   "main": "src/server.ts",
   "scripts": {
-    "build": "tsc && tsc-alias",
     "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/server.ts",
+    "build": "tsc && tsc-alias",
     "start": "node ./dist/server.js",
     "typecheck": "tsc --noEmit && tsc-alias",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --ignore-path .prettierignore --write \"**/*.+(js|ts|json)\"",
     "format:check": "prettier --ignore-path .prettierignore --check \"**/*.+(js|ts|json)\"",
-    "clean": "rm -rf dist && rm -rf node_modules"
+    "clean": "rm -rf dist node_modules",
+    "clean:turbo": "rm -rf .turbo dist node_modules"
   },
   "keywords": [],
   "author": "",

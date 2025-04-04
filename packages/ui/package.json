@@ -8,7 +8,9 @@
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write . --ignore-path .prettierignore",
-    "format:check": "prettier --check . --ignore-path .prettierignore"
+    "format:check": "prettier --check . --ignore-path .prettierignore",
+    "clean": "rm -rf node_modules",
+    "clean:turbo": "rm -rf .turbo node_modules"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.4",
