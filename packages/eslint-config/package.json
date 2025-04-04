@@ -5,6 +5,7 @@
   "private": true,
   "exports": {
     "./base": "./base.js",
+    "./express": "./express.js",
     "./next-js": "./next.js",
     "./react-internal": "./react-internal.js"
   },
@@ -14,6 +15,7 @@
     "@typescript-eslint/eslint-plugin": "^8.24.1",
     "@typescript-eslint/parser": "^8.24.1",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
