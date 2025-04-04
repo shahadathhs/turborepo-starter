@@ -7,7 +7,7 @@
       "persistent": true
     },
     "build": {
-      "dependsOn": ["^build", "lint"],
+      "dependsOn": ["^build", "^lint"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "cache": false,
       "persistent": true
