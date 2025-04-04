@@ -24,11 +24,14 @@ importers:
         specifier: ^2.4.2
         version: 2.4.2
       typescript:
-        specifier: 5.7.3
+        specifier: ^5.7.3
         version: 5.7.3
 
   apps/express-rest-api:
     dependencies:
+      '@types/ms':
+        specifier: ^2.1.0
+        version: 2.1.0
       bcryptjs:
         specifier: ^3.0.0
         version: 3.0.2
@@ -84,9 +87,6 @@ importers:
       tsconfig-paths:
         specifier: ^4.2.0
         version: 4.2.0
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
 
   apps/next-web:
     dependencies:
@@ -124,9 +124,6 @@ importers:
       '@workspace/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
 
   apps/router-web:
     dependencies:
@@ -185,9 +182,6 @@ importers:
       tailwindcss:
         specifier: ^4.0.0
         version: 4.0.8
-      typescript:
-        specifier: ^5.7.2
-        version: 5.7.3
       vite:
         specifier: ^5.4.11
         version: 5.4.17(@types/node@20.17.19)(lightningcss@1.29.2)
@@ -230,9 +224,6 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
       typescript-eslint:
         specifier: ^8.24.1
         version: 8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)

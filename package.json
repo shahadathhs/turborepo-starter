@@ -14,6 +14,7 @@
     "format:check": "turbo format:check",
     "clean": "turbo clean && rm -rf node_modules",
     "clean:turbo": "turbo clean:turbo && rm -rf .turbo node_modules",
+    "reset": "pnpm run clean:turbo && pnpm install",
     "ui": "pnpm --filter=ui shadcn"
   },
   "devDependencies": {
@@ -22,7 +23,7 @@
     "eslint": "^9.20.1",
     "prettier": "^3.5.1",
     "turbo": "^2.4.2",
-    "typescript": "5.7.3"
+    "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@10.4.1",
   "engines": {
