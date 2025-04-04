@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Router",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "types": ["node", "vite/client"],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+  }
+}
