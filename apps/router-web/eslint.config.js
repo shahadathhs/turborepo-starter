@@ -5,4 +5,5 @@ export default [
   {
     ignores: ['build/**', 'node_modules/**', '.react-router/**'],
   },
-  ...config]
+  ...config,
+]

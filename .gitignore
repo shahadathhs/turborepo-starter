@@ -35,3 +35,7 @@ npm-debug.log*
 # Misc
 .DS_Store
 *.pem
+
+# log files
+logs
+*.log

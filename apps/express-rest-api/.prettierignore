@@ -1,0 +1,6 @@
+node_modules
+.turbo
+.next
+.react-router
+dist
+build
