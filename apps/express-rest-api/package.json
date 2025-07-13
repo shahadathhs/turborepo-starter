@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/server.ts",
     "build": "tsc && tsc-alias",
-    "start": "node ./dist/server.js",
+    "start": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/server.ts",
     "typecheck": "tsc --noEmit && tsc-alias",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
